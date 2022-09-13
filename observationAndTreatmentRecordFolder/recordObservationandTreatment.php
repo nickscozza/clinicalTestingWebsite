@@ -70,15 +70,14 @@
 						</td>
 						</td>
 					</tr>
-					<script>
-						let comment1;
-						if(painScore >= 5) {
-							comment1 = 'Monitored in 30 mins!'
-						} else{
-							comment1 = 'Patient is fine!'
-						}
-						document.getElementById("painScore").innerHTML = comment1;
-					</script>
+					<?php
+					$painScore = $_REQUEST['painScore'];
+					if($painScore >= 5){
+						echo "Monitored in 30 mins later!"
+					} else{
+						echo"Patient is normal!"
+					}
+					?>
 					<tr>
 						<td>Has the Patients Temperature increased or decreased by 2+ Degrees Celcius?</td>
 						<td>
@@ -87,15 +86,14 @@
 								placeholder="Enter Yes/No"></input>
 						</td>
 					</tr>
-					<script>
-						let comment2;
-						if(tempQuestion == 'Yes') {
-							comment2 = 'Monitored in 30 mins!'
-						} else{
-							comment2 = 'Temperature is normal!'
-						}
-						document.getElementById("tempQuestion").innerHTML = comment2;
-					</script>
+					<?php
+					$tempQuestion = $_REQUEST['tempQuestion'];
+					if($tempQuestion >= 5){
+						echo "Monitored in 30 mins later!"
+					} else{
+						echo"Patient is normal!"
+					}
+					?>
 					<tr>
 						<td>Has the Patient's heart rate increased OR is it abnormal?</td>
 						<td><label>Yes/No</label>
@@ -103,15 +101,14 @@
 								placeholder="Enter Yes/No"></input>
 						</td>
 					</tr>
-					<script>
-						let comment3;
-						if(hearRateQuestion == 'Yes') {
-							comment3 = 'Monitored in 30 mins!'
-						} else{
-							comment3 = 'Heart rate is normal!'
-						}
-						document.getElementById("heartRateQuestion").innerHTML = comment3;
-					</script>
+					<?php
+					$heartRateQuestion = $_REQUEST['heartRateQuestion'];
+					if($heartRateQuestion >= 5){
+						echo "Monitored in 30 mins later!"
+					} else{
+						echo"Patient is normal!"
+					}
+					?>
 				</table>
 			</li>
 			<li>
