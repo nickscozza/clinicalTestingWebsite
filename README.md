@@ -1,12 +1,14 @@
-# Project title
-Clinical Testing Website
+# Description
+Full Stack Website with CRUD operations.
 
 ## Use Case
-The use case for this project is to create a End-to-End functional website that allows Hospital Staff to Create, Remove, Update & Delete patient data (CRUD).
+- Hospital staff can Create, Read, Update & Delete Patient records within the database.
+- The Database can be exported via an csv file.
+
 
 ## Q/A
 ### Where can I find it online?
-Due to the project being no longer used, it is not currently hosted online. However, Feel free to view the website code in the provided files.
+Due to the project being no longer used, it is no longer hosted online. However, Feel free to view the website code in the provided files.
 
 
 
