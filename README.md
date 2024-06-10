@@ -2,7 +2,7 @@
 Full Stack Website with CRUD operations.
 
 ## Use Case
-- Hospital staff can Create, Read, Update & Delete Patient records within the database.
+- Hospital staff can manage Patient records within an database.
 - The Database can be exported via an csv file.
 
 
